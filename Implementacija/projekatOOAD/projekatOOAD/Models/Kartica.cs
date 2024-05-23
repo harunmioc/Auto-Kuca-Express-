@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace projekatOOAD.Models
 {
@@ -10,6 +11,7 @@ namespace projekatOOAD.Models
 
         public string BrojKartice { get; private set; }
 
+        [ForeignKey("Korisnik")]
         public Guid IdKorisnika { get; private set; }
 
         public Kartica(Guid Id, string brojKartice, Guid idKorisnika)
