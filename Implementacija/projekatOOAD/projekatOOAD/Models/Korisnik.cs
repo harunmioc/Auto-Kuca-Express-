@@ -1,12 +1,18 @@
-﻿namespace projekatOOAD.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace projekatOOAD.Models
 {
-    public class Korisnik : Osoba
+    public class Korisnik : IdentityUser
     {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
+        public string ProfilePicture { get; set; }
+        //iznad je od IdentitiyUser 
+
         public string Username { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public string Ime { get; set; }
-        public string Prezime { get; set; }
         Korpa korpa { get; set; }
 
         [Key]
