@@ -3,8 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\dodavanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\dodavanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\auta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\auta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\dodavanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\dodavanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\controllers\\dodavanjecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\controllers\\dodavanjecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 75f909451db2a81f2a323ccae39eed7ba6757a42
     }
   ],
   "DocumentGroupContainers": [
@@ -24,14 +37,48 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
+<<<<<<< HEAD
+=======
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Auta\\Index.cshtml",
+              "RelativeDocumentMoniker": "Express\\Views\\Auta\\Index.cshtml",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Auta\\Index.cshtml",
+              "RelativeToolTip": "Express\\Views\\Auta\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T00:42:41.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+>>>>>>> 75f909451db2a81f2a323ccae39eed7ba6757a42
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Dodavanje\\Index.cshtml",
               "RelativeDocumentMoniker": "Express\\Views\\Dodavanje\\Index.cshtml",
               "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Dodavanje\\Index.cshtml",
               "RelativeToolTip": "Express\\Views\\Dodavanje\\Index.cshtml",
+<<<<<<< HEAD
               "ViewState": "AQIAABAAAAAAAAAAAAAQwC8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-28T18:24:16.34Z",
               "EditorCaption": ""
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T14:43:18.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DodavanjeController.cs",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\DodavanjeController.cs",
+              "RelativeDocumentMoniker": "Express\\Controllers\\DodavanjeController.cs",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\DodavanjeController.cs",
+              "RelativeToolTip": "Express\\Controllers\\DodavanjeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T14:43:08.108Z"
+>>>>>>> 75f909451db2a81f2a323ccae39eed7ba6757a42
             }
           ]
         }
