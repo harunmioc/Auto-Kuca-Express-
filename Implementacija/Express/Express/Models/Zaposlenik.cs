@@ -17,8 +17,7 @@ namespace Express.Models
         public string Password { get; set; }
         public Korpa Korpa { get; set; }
 
-        [ForeignKey("Proizvod")]
-        public int IdProizvoda { get; set; }
+        [ForeignKey("Proizvod")] public int IdProizvoda { get; set; }
 
         public Zaposlenik() { }
 

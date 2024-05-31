@@ -11,8 +11,7 @@ namespace Express.Models
 
         public string BrojKartice { get; set; }
 
-        [ForeignKey("Korisnik")]
-        public int IdKorisnika { get; set; }
+        [ForeignKey("Korisnik")] public int IdKorisnika { get; set; }
 
         // Parameterless constructor required by EF Core
         public Kartica() { }

@@ -17,8 +17,7 @@ namespace Express.Models
         public string Email { get; set; }
         public string Password { get; set; }
 
-        [ForeignKey("Korpa")]
-        public int Korpa { get; set; } 
+        [ForeignKey("Korpa")] public int KorpaId { get; set; } 
 
         public Korisnik() { }
 
@@ -29,7 +28,7 @@ namespace Express.Models
             this.Password = password;
             this.FirstName = firstName;
             this.LastName = lastName;
-            this.Korpa = korpa;
+            this.KorpaId = korpa;
         }
     }
 }

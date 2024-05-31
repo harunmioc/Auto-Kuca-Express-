@@ -16,11 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Express")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79f77acbde778f2468637da06bda6a6ceacfe0a7")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3437c9da3060513560d75105f810d01248c27c98")]
->>>>>>> 75f909451db2a81f2a323ccae39eed7ba6757a42
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1097510db7725abf3b3d0d99e67b2bd6f165ef9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Express")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Express")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

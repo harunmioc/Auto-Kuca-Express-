@@ -34,8 +34,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Dodavanje/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXZhbmplXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Dodavanje/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXZhbmplXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Dodavanje/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXZhbmplXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Dodavanje/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXZhbmplXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Dodavanje/Index.cshtml]

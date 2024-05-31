@@ -12,8 +12,7 @@ namespace Express.Models
         public string adresaDostave { get; set; }
         public DateTime datumNarudzbe { get; set; }
 
-        [ForeignKey("Proizvod")]
-        public int idProizvoda { get; set; }
+        [ForeignKey("Proizvod")] public int idProizvoda { get; set; }
 
         public Narudzba() { }
 

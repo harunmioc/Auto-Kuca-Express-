@@ -12,10 +12,15 @@ namespace Express.Models
         public string Model { get; set; }
         public double Cijena { get; set; }
 
+        public string Slika {  get; set; }
+        
+        public int Kilometraza { get; set; }
         public Proizvod() { }
-        public Proizvod(int Id, string proizvodjac, string model, double cijena)
+        public Proizvod(int Id, string proizvodjac, string model, double cijena, string slika, int kilometraza)
         {
             id = Id;
+            Kilometraza = kilometraza;
+            Slika = slika;
             Proizvodjac = proizvodjac;
             Model = model;
             Cijena = cijena;
