@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Express.Data;
 using Express.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Express.Controllers
 {

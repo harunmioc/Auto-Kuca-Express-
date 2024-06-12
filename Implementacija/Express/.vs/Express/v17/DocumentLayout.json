@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\models\\korpaproizvod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\models\\korpaproizvod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\models\\korpa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\models\\korpa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\auta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\auta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\controllers\\autacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\controllers\\autacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\korpa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\korpa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\korpa\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\korpa\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\models\\zaposlenik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\models\\zaposlenik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\controllers\\korpacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\controllers\\korpacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\dodavanje\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\dodavanje\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\korpa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\korpa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\dodavanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\dodavanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\models\\korpa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\models\\korpa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\controllers\\dodavanjecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\controllers\\dodavanjecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\korpa\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\korpa\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\korpa\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\korpa\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,27 +59,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KorpaProizvod.cs",
-              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Models\\KorpaProizvod.cs",
-              "RelativeDocumentMoniker": "Express\\Models\\KorpaProizvod.cs",
-              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Models\\KorpaProizvod.cs",
-              "RelativeToolTip": "Express\\Models\\KorpaProizvod.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Express\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Express\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T22:14:48.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Express\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Express\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T12:05:46.396Z",
+              "WhenOpened": "2024-06-12T22:09:15.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Korpa.cs",
-              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Models\\Korpa.cs",
-              "RelativeDocumentMoniker": "Express\\Models\\Korpa.cs",
-              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Models\\Korpa.cs",
-              "RelativeToolTip": "Express\\Models\\Korpa.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T11:58:26.888Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Express\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Express\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T22:07:24.298Z",
               "EditorCaption": ""
             },
             {
@@ -86,22 +103,74 @@
               "RelativeDocumentMoniker": "Express\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Express\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAATAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE0AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T11:03:37.343Z",
+              "WhenOpened": "2024-06-12T21:54:18.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Auta\\Index.cshtml",
-              "RelativeDocumentMoniker": "Express\\Views\\Auta\\Index.cshtml",
-              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Auta\\Index.cshtml",
-              "RelativeToolTip": "Express\\Views\\Auta\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Edit.cshtml",
+              "RelativeToolTip": "Express\\Views\\Korpa\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T10:47:11.273Z",
+              "WhenOpened": "2024-06-12T21:36:52.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Details.cshtml",
+              "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Details.cshtml",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Details.cshtml",
+              "RelativeToolTip": "Express\\Views\\Korpa\\Details.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T21:35:55.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Delete.cshtml",
+              "RelativeToolTip": "Express\\Views\\Korpa\\Delete.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T21:33:02.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Create.cshtml",
+              "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Create.cshtml",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Create.cshtml",
+              "RelativeToolTip": "Express\\Views\\Korpa\\Create.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T21:29:24.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Korpa.cs",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Models\\Korpa.cs",
+              "RelativeDocumentMoniker": "Express\\Models\\Korpa.cs",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Models\\Korpa.cs",
+              "RelativeToolTip": "Express\\Models\\Korpa.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T20:30:28.782Z",
               "EditorCaption": ""
             },
             {
@@ -111,79 +180,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Zaposlenik.cs",
-              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Models\\Zaposlenik.cs",
-              "RelativeDocumentMoniker": "Express\\Models\\Zaposlenik.cs",
-              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Models\\Zaposlenik.cs",
-              "RelativeToolTip": "Express\\Models\\Zaposlenik.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "KorpaController.cs",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\KorpaController.cs",
+              "RelativeDocumentMoniker": "Express\\Controllers\\KorpaController.cs",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\KorpaController.cs",
+              "RelativeToolTip": "Express\\Controllers\\KorpaController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAzwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T09:24:56.503Z",
+              "WhenOpened": "2024-06-12T20:29:01.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AutaController.cs",
-              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\AutaController.cs",
-              "RelativeDocumentMoniker": "Express\\Controllers\\AutaController.cs",
-              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\AutaController.cs",
-              "RelativeToolTip": "Express\\Controllers\\AutaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T09:15:07.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Dodavanje\\Create.cshtml",
-              "RelativeDocumentMoniker": "Express\\Views\\Dodavanje\\Create.cshtml",
-              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Dodavanje\\Create.cshtml",
-              "RelativeToolTip": "Express\\Views\\Dodavanje\\Create.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T09:12:51.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Express\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Express\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-28T19:25:00.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DodavanjeController.cs",
-              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\DodavanjeController.cs",
-              "RelativeDocumentMoniker": "Express\\Controllers\\DodavanjeController.cs",
-              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\DodavanjeController.cs",
-              "RelativeToolTip": "Express\\Controllers\\DodavanjeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T09:09:50.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Dodavanje\\Index.cshtml",
-              "RelativeDocumentMoniker": "Express\\Views\\Dodavanje\\Index.cshtml",
-              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Dodavanje\\Index.cshtml",
-              "RelativeToolTip": "Express\\Views\\Dodavanje\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADsAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Index.cshtml",
+              "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Index.cshtml",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Index.cshtml",
+              "RelativeToolTip": "Express\\Views\\Korpa\\Index.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAIAwwEgAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-28T18:24:16.34Z",
+              "WhenOpened": "2024-06-12T20:28:39.022Z",
               "EditorCaption": ""
             }
           ]

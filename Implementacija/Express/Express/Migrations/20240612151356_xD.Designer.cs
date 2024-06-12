@@ -9,21 +9,53 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Express.Data.Migrations
+namespace Express.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240524183732_Baza")]
-    partial class Baza
+    [Migration("20240612151356_xD")]
+    partial class xD
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.3")
+                .HasAnnotation("ProductVersion", "8.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Express.Models.Administrator", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProfilePicture")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Zaposlenik", (string)null);
+                });
 
             modelBuilder.Entity("Express.Models.Kartica", b =>
                 {
@@ -37,10 +69,16 @@ namespace Express.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("IdKorisnika")
-                        .HasColumnType("int");
+                    b.Property<string>("IdKorisnika")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("korisnikId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("korisnikId");
 
                     b.ToTable("Kartica", (string)null);
                 });
@@ -57,38 +95,19 @@ namespace Express.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("idKorisnika")
-                        .HasColumnType("int");
+                    b.Property<string>("idKorisnika")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<double>("ukupnaCijena")
+                        .HasColumnType("float");
 
                     b.HasKey("id");
+
+                    b.HasIndex("idKorisnika")
+                        .IsUnique();
 
                     b.ToTable("Korpa", (string)null);
-                });
-
-            modelBuilder.Entity("Express.Models.Narudzba", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
-
-                    b.Property<string>("adresaDostave")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("cijena")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("datumNarudzbe")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("idProizvoda")
-                        .HasColumnType("int");
-
-                    b.HasKey("id");
-
-                    b.ToTable("Narudzba", (string)null);
                 });
 
             modelBuilder.Entity("Express.Models.Proizvod", b =>
@@ -102,7 +121,17 @@ namespace Express.Data.Migrations
                     b.Property<double>("Cijena")
                         .HasColumnType("float");
 
+                    b.Property<int>("Kilometraza")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Korpaid")
+                        .HasColumnType("int");
+
                     b.Property<string>("Model")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Opis")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -110,7 +139,13 @@ namespace Express.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Slika")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("id");
+
+                    b.HasIndex("Korpaid");
 
                     b.ToTable("Proizvod", (string)null);
                 });
@@ -179,6 +214,11 @@ namespace Express.Data.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -231,7 +271,9 @@ namespace Express.Data.Migrations
 
                     b.ToTable("AspNetUsers", (string)null);
 
-                    b.UseTptMappingStrategy();
+                    b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -330,14 +372,7 @@ namespace Express.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Korpa")
-                        .HasColumnType("int");
-
                     b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -345,49 +380,34 @@ namespace Express.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.ToTable("Korisnik", (string)null);
+                    b.HasDiscriminator().HasValue("Korisnik");
                 });
 
-            modelBuilder.Entity("Express.Models.Zaposlenik", b =>
+            modelBuilder.Entity("Express.Models.Kartica", b =>
                 {
-                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+                    b.HasOne("Express.Models.Korisnik", "korisnik")
+                        .WithMany("MogucnostiPlacanja")
+                        .HasForeignKey("korisnikId");
 
-                    b.Property<int>("Age")
-                        .HasColumnType("int");
+                    b.Navigation("korisnik");
+                });
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+            modelBuilder.Entity("Express.Models.Korpa", b =>
+                {
+                    b.HasOne("Express.Models.Korisnik", "korisnik")
+                        .WithOne("Korpa")
+                        .HasForeignKey("Express.Models.Korpa", "idKorisnika")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Property<int>("IdProizvoda")
-                        .HasColumnType("int");
+                    b.Navigation("korisnik");
+                });
 
-                    b.Property<int>("Korpaid")
-                        .HasColumnType("int");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ProfilePicture")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasIndex("Korpaid");
-
-                    b.ToTable("Zaposlenik", (string)null);
+            modelBuilder.Entity("Express.Models.Proizvod", b =>
+                {
+                    b.HasOne("Express.Models.Korpa", null)
+                        .WithMany("Products")
+                        .HasForeignKey("Korpaid");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -441,30 +461,16 @@ namespace Express.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Express.Models.Korisnik", b =>
+            modelBuilder.Entity("Express.Models.Korpa", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
-                        .WithOne()
-                        .HasForeignKey("Express.Models.Korisnik", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("Express.Models.Zaposlenik", b =>
+            modelBuilder.Entity("Express.Models.Korisnik", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
-                        .WithOne()
-                        .HasForeignKey("Express.Models.Zaposlenik", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Express.Models.Korpa", "Korpa")
-                        .WithMany()
-                        .HasForeignKey("Korpaid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Korpa");
+
+                    b.Navigation("MogucnostiPlacanja");
                 });
 #pragma warning restore 612, 618
         }

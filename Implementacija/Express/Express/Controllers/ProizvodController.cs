@@ -7,25 +7,27 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Express.Data;
 using Express.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Express.Controllers
 {
-    public class DodavanjeController : Controller
+    [Authorize(Roles = "Administrator")]
+    public class ProizvodController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public DodavanjeController(ApplicationDbContext context)
+        public ProizvodController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Dodavanje
+        // GET: Proizvod
         public async Task<IActionResult> Index()
         {
             return View(await _context.Proizvod.ToListAsync());
         }
 
-        // GET: Dodavanje/Details/5
+        // GET: Proizvod/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -43,18 +45,18 @@ namespace Express.Controllers
             return View(proizvod);
         }
 
-        // GET: Dodavanje/Create
+        // GET: Proizvod/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Dodavanje/Create
+        // POST: Proizvod/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,Proizvodjac,Model,Cijena,Slika,Kilometraza")] Proizvod proizvod)
+        public async Task<IActionResult> Create([Bind("id,Proizvodjac,Model,Cijena,Slika,Opis,Kilometraza")] Proizvod proizvod)
         {
             if (ModelState.IsValid)
             {
@@ -65,7 +67,7 @@ namespace Express.Controllers
             return View(proizvod);
         }
 
-        // GET: Dodavanje/Edit/5
+        // GET: Proizvod/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -81,12 +83,12 @@ namespace Express.Controllers
             return View(proizvod);
         }
 
-        // POST: Dodavanje/Edit/5
+        // POST: Proizvod/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,Proizvodjac,Model,Cijena,Slika,Kilometraza")] Proizvod proizvod)
+        public async Task<IActionResult> Edit(int id, [Bind("id,Proizvodjac,Model,Cijena,Slika,Opis,Kilometraza")] Proizvod proizvod)
         {
             if (id != proizvod.id)
             {
@@ -116,7 +118,7 @@ namespace Express.Controllers
             return View(proizvod);
         }
 
-        // GET: Dodavanje/Delete/5
+        // GET: Proizvod/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -134,7 +136,7 @@ namespace Express.Controllers
             return View(proizvod);
         }
 
-        // POST: Dodavanje/Delete/5
+        // POST: Proizvod/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

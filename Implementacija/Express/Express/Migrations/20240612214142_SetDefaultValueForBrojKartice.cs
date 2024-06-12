@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace Express.Data.Migrations
+namespace Express.Migrations
 {
     /// <inheritdoc />
-    public partial class nova : Migration
+    public partial class SetDefaultValueForBrojKartice : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

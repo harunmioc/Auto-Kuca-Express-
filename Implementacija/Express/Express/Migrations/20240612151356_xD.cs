@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace Express.Data.Migrations
+namespace Express.Migrations
 {
     /// <inheritdoc />
-    public partial class novo : Migration
+    public partial class xD : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

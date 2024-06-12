@@ -11,22 +11,22 @@
     <h4>Korpa</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.idKorisnika)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdKorisnika)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.idKorisnika)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdKorisnika)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.brojKartice)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BrojKartice)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.brojKartice)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BrojKartice)
         </dd>
     </dl>
-    
+
     <form asp-action="Delete">
-        <input type="hidden" asp-for="id" />
+        <input type="hidden" asp-for="Id" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
         <a asp-action="Index">Back to List</a>
     </form>

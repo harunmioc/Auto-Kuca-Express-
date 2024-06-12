@@ -1,31 +1,44 @@
-﻿
-using System;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
 
 namespace Express.Models
 {
     public class Korpa
     {
         [Key]
-        public int id { get; set; }
+        public int Id { get; set; }
 
-        [ForeignKey("Korisnik")] public int idKorisnika { get; set; }
-        //public Korisnik Korisnik { get; set; } // Assuming Korisnik class exists
+        [ForeignKey("IdentityUser")]
+        public string IdKorisnika { get; set; }
+        public IdentityUser Korisnik { get; set; }
 
-        public string brojKartice { get; set; }
+        public ICollection<Proizvod> Products { get; set; } = new List<Proizvod>();
 
-       // public ICollection<KorpaProizvod> KorpaProizvodi { get; set; } // Navigation property for one-to-many relationship
+        public double UkupnaCijena { get; set; } = 0;
+
+        [Required]
+        public string BrojKartice { get; set; } = "0000-0000-0000-0000"; // Default value
+
+        public void DodajProizvod(Proizvod newProduct)
+        {
+            if (!Products.Contains(newProduct))
+            {
+                Products.Add(newProduct);
+                UkupnaCijena += newProduct.Cijena;
+            }
+        }
+
+        public void ObrisiProizvod(Proizvod newProduct)
+        {
+            if (Products.Contains(newProduct))
+            {
+                Products.Remove(newProduct);
+                UkupnaCijena -= newProduct.Cijena;
+            }
+        }
 
         public Korpa() { }
-
-        public Korpa(int Id, int IdKorisnika, string BrojKartice)
-        {
-            id = Id;
-            idKorisnika = IdKorisnika;
-            brojKartice = BrojKartice;
-           // KorpaProizvodi = new List<KorpaProizvod>(); // Initialize empty list
-        }
     }
-
 }
