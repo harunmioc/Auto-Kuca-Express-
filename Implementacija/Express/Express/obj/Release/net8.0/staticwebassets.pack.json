@@ -245,10 +245,6 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\wwwroot\\web.config",
-      "PackagePath": "staticwebassets\\web.config"
-    },
-    {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Express.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
